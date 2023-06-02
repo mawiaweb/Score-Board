@@ -1,0 +1,48 @@
+body{
+  background: teal;
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+	max-width: 750px;
+	max-height: 750px;
+	max-height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background: #000;
+	padding: 30px 20px;
+}
+
+.home,
+.guest{
+	padding-left : 10em;
+	padding-right: 10em;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+
+#num1-el,
+#num2-el{
+	font-size: 40px;
+	background: crimson;
+	padding: 30px 60px;
+}
+
+h2{
+	margin-bottom: 2em;
+	font-size: 3em;
+}
+.btn{
+	margin-top: 4em;
+	margin-bottom: 3em;
+	width: 160px;
+}
+#btn-btn{
+	padding: 7px 10px;
+	margin-right: 2px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
